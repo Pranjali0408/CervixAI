@@ -1,8 +1,5 @@
 # CervixAI — Multimodal Cervical Cancer Screening Decision-Support System
-[![IEEE](https://img.shields.io/badge/IEEE-Scopus%20Indexed-blue)](https://ieeexplore.ieee.org)
-[![Python](https://img.shields.io/badge/Python-3.10-blue)](https://python.org)  
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.1-red)](https://pytorch.org)
-[![License](https://img.shields.io/badge/License-Research%20Only-yellow)]()
+
 CervixAI is a research/demo application for cervical cancer screening support. It combines a Pap smear microscopy image with selected clinical risk factors and returns a three-class screening output:
 
 - **Normal**
