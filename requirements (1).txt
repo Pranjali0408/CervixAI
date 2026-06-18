@@ -1,0 +1,31 @@
+# ── Core ML ───────────────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+timm>=0.9.12
+
+# ── Data / preprocessing ──────────────────────────────────
+numpy>=1.23
+pandas>=1.5
+scikit-learn>=1.2
+imbalanced-learn>=0.10     # SMOTE + RandomOverSampler
+
+# ── Explainability ────────────────────────────────────────
+shap>=0.44.0               # training-time + per-patient SHAP waterfall
+
+# ── Visualisation ─────────────────────────────────────────
+matplotlib>=3.6
+seaborn>=0.12
+
+# ── Computer vision ───────────────────────────────────────
+pillow>=9.0
+opencv-python-headless>=4.7   # Grad-CAM overlay, image validation
+
+# ── API ───────────────────────────────────────────────────
+flask>=2.3
+flask-cors>=4.0               # wildcard CORS for file:// + ngrok
+
+# ── Serialisation ─────────────────────────────────────────
+# pickle is stdlib — no install needed
+
+# ── Colab only (uncomment if running on Google Colab) ─────
+pyngrok>=7.0.0
